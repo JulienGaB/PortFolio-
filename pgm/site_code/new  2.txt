@@ -1,0 +1,169 @@
+<div id="menu row">
+			<div class="espace_blanc col-md-1">
+			</div>
+			<div class="logo col-md-2  col-sm-2 col-xs-2 ">
+				<a href="#" class="logo" >
+					<img src="././icon/logo.png" />
+				</a>
+			</div>
+				<div class="information_top col-md-8  col-sm-12 col-xs-12">
+					<ul>
+						<li>
+							<a href="#" class="adresse_mail" >
+							<img src="././icon/enveloppe.png" />
+							support@immobilier.com
+							</a>
+						</li>
+						<li>
+							<a href="#" class="telephone" >
+							<img src="././icon/telephone.png" />
+							09.58.87.88.69
+							</a>
+						</li>
+						<li>
+							<form>
+								<select name="langue" size="1">
+									<option value="Francais">Francais</option>
+									<option value="Anglais">Anglais</option>
+									<option value="Espagnole">Espagnol</option>
+									<option value="Italien">Italien</option>
+									<option value="Allemand">Allemand</option>
+									<option value="Néerlandais">Néerlandais</option>
+									<option value="Portuguais">Portuguais</option>
+									<option value="Russe">Russe</option>
+								</select>
+							</form>		
+						</li>
+					</ul>
+				</div>
+				<div class="menu row col-md-8  col-sm-12 col-xs-12">
+					<ul class="col-md-12  col-sm-12 col-xs-12">
+						<li>
+							<a href="#">
+							ACCUEIL
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							ANNONCES
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							ESTIMATION
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							L'AGENCE
+							</a>
+						</li>
+						<li>
+							<a href="#">
+							CONTACT
+							</a>
+						</li>
+						<li class="panier" >
+							<a href="#" >
+								<img src="././icon/panier.png" />
+							</a>
+						</li>
+					</ul>
+					<div class="clear">
+					</div>
+				</div>
+			<div class="espace_blanc col-md-1">
+			</div>
+		</div>
+		
+		
+		
+		
+#conteneur_menu{
+}
+
+.logo img{
+height:200px;
+width:auto;
+}
+
+.logo {
+}
+
+.information_top{
+height:50px;
+}
+ 
+.information_top li{
+margin:5px;
+}
+ 
+.information_top ul li {
+display:inline-block;
+}
+ 
+.information_top a {
+display:block;
+font-size:12px;
+color:black;
+}
+
+.information_top ul{
+font-size:12px;
+font-weight:100;
+background-color:white;
+float:right;
+}
+
+.adresse_mail img{
+width:15px;
+}
+
+.telephone img{
+width:10px;
+}
+
+.information_top select{
+font-size:10px;
+color:black;
+border:none;
+}
+
+.menu{
+height:150px;
+position:fixed;
+}
+
+.menu img{
+width:35px;
+float:right;
+}
+ 
+.menu li{
+line-height:35px;
+}
+ 
+.menu ul li {
+display:inline-block;
+}
+
+.menu a{
+font-size:20px;
+color:#800040 !important;
+padding-right:30px;
+padding-left:30px;
+}
+ 
+.menu a:hover{
+font-size:20px;
+background-color:#800040;
+color:white !important;
+text-decoration:none;
+}
+ 
+ 
+.menu ul {
+font-weight:900;
+position:absolute;
+bottom:0px;
+}

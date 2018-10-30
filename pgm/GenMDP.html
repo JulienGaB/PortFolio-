@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Générateur de mot de passe</title>
+    <style>
+      html, div, body, form, input, label, button{
+        margin:0px;
+        padding:0px;
+      }
+      .conteneur{
+        width:100%;
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        background-color:#111;
+      }
+      .form{
+        color:#aaa;
+        font-family:sans-serif;
+        box-sizing:border-box;
+      }
+      input[type="number"], input[type="text"]{
+        width:calc(100% - 10px);
+        margin:10px 0px;
+        padding:5px;
+        background-color:#111;
+        color:#aaa;
+        border:1px solid #777;
+        text-align:center;
+      }
+      button{
+        width:100%;
+        margin:30px 0px;
+        padding:5px;
+        background-color:#111;
+        border:1px solid #1568e4;
+        color:#1568e4;
+        transition:0.25s;
+        cursor:pointer;
+      }
+      button:hover{
+        background-color:#1568e4;
+        transition:0.25s;
+        color:#aaa;
+      }
+      form{
+        text-align:center;
+        color:#aaa;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteneur">
+      <div class="form">
+        <form id="form" method="get">
+
+          <label for="numberEnter">Veuillez rentrer un nombre correspondant au nombre de caractère de votre mot de passe :</label><br />
+          <input type="text" name="numberEnter" id="numberEnter" onblur="verifChamp(this)" placeholder="max : 99"><br />
+
+          <button type="button" onclick="verifForm()" name="envoie">Générer mon nouveau mot de passe</button><br />
+
+          <label for="resMDP">Votre nouveau mot de passe sécurisé :</label>
+          <input type="text" name="resMDP" id="resMDP" placeholder="Votre résultat ici :">
+          <button type="button" onclick="Copy()" name="envoie" id="copy">Copier dans le presse-papier</button><br />
+
+        </form>
+      </div>
+    </div>
+
+    <script>
+
+      function Copy(){
+        var toCopy  = document.getElementById('resMDP');
+        toCopy.select();
+        document.execCommand('copy');
+        return false;
+      }
+
+      function surligne(champ, erreur){
+			  if(erreur)
+				champ.style.border = "1px solid red";
+			  else
+				champ.style.border = "1px solid #1568e4";
+			}
+
+			function verifChamp(champ){
+        var regex = new RegExp("^[0-9]{1}[0-9]{1}$");
+        if (regex.test(champ.value)){
+          surligne(champ, false);
+  				return true;
+        }
+        else{
+          surligne(champ, true);
+  				return false;
+        }
+			}
+
+			function verifForm(){
+			  if(verifChamp(numberEnter)){
+          var nbrCh = parseFloat(document.getElementById("numberEnter").value);
+          var tabVal = [];
+          for (var i = 0; i < nbrCh; i++) {
+            var nbrRan = Math.floor(Math.random() * (5 - 1) + 1);
+            tabVal.push(nbrRan);
+          }
+          for (var i = 0; i < tabVal.length; i++) {
+            if(tabVal[i] == 1){
+              var minCarTab = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w"];
+              var mdpCar = Math.floor(Math.random() * (27 - 1) + 1);
+              var res = minCarTab[mdpCar];
+              tabVal[i] = res;
+
+            }
+            else if (tabVal[i] == 2) {
+              var majCarTab = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W"];
+              var mdpCar = Math.floor(Math.random() * (27 - 1) + 1);
+              var res = majCarTab[mdpCar];
+              tabVal[i] = res;
+            }
+            else if (tabVal[i] == 3) {
+              var mdpCar = Math.floor(Math.random() * (11 - 1));
+              tabVal[i] = mdpCar;
+            }
+            else {
+              var majCarTab = [",",";",":","!","?",".","/","_","-","+","=","-"];
+              var mdpCar = Math.floor(Math.random() * (13 - 1) + 1);
+              var res = majCarTab[mdpCar];
+              tabVal[i] = res;
+            }
+          }
+          var newMDP = document.getElementById("resMDP").value = tabVal.join('');
+          return newMDP;
+        }
+			  else{
+          alert("Veuillez remplir correctement le champs !");
+				  return false;
+			  }
+			}
+
+    </script>
+
+  </body>
+</html>

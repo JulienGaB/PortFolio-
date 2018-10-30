@@ -1,0 +1,537 @@
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* HEADER */
+
+html, body{
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+}
+
+html,body,div,h1,h2,h3,h4,h5,h6,p,a,span,ul,li,header,footer,input,textarea,label,button,strong,img,video,source,nav,main,section,article {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  transition:0.5s;
+}
+
+div:hover,h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,p:hover,a:hover,span:hover,ul:hover,li:hover,header:hover,footer:hover,input:hover, textarea:hover,label:hover,button:hover,strong:hover,img:hover,video:hover,source:hover,nav:hover,section:hover,article:hover{
+  transition:0.5s;
+}
+
+::-moz-selection{
+  color:#efefef;
+  background:#111;
+}
+
+::selection{
+  color:#efefef;
+  background:#111;
+}
+
+h2 {
+ font-size: 50px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-weight: 700;
+}
+
+h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+a, a:hover {
+  overflow: hidden;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	font-weight: 400;
+  font-size: 15px;
+	line-height: 22px;
+}
+
+.containerSTR {
+	max-width: 1100px;
+	margin: auto;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* HEADER */
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+  z-index: 999;
+}
+
+header .contentHeader {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+}
+
+header .contentHeader .firstZone a {
+  padding: 0px;
+}
+
+header .contentHeader .firstZone a img {
+  height: 50px;
+}
+
+header .contentHeader .secondZone {
+
+}
+
+header .contentHeader .secondZone nav {
+
+}
+
+header .contentHeader .secondZone nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+}
+
+header .contentHeader .secondZone nav ul li {
+  display: block;
+}
+
+header .contentHeader .secondZone nav ul li a {
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px;
+}
+
+header .contentHeader .secondZone nav ul li a:hover {
+  box-shadow: inset 0 -50px 0 0 rgb(28,91,223);
+}
+
+header .contentHeader .secondZone nav ul li .dropMenu {
+  display: none;
+}
+
+header .menuColor {
+  padding: 0px 15px;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+}
+
+header .menuColor .secondZone nav ul li a {
+  color: #000;
+}
+
+header .menuColor .secondZone nav ul li a:hover {
+  color: #fff;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* HOME */
+
+.sectionHome {
+	background: url(".././img/back-home-index.jpg") 50% 25% no-repeat fixed;
+	background-size: cover;
+	width: 100%;
+}
+
+.homeContent {
+  background: rgba(28, 91, 223, 0.11);
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.structureHome {
+	text-align: center;
+  color: #fff;
+}
+
+.structureHome h1 {
+	font-size: 100px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 800;
+}
+
+.structureHome h2{
+  margin-bottom: -25px;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* SECTION CV */
+
+.sectionCv {
+	width: 100%;
+  padding: 15px;
+  background-color: #000410;
+  color: #fff;
+}
+
+.structureCv {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.structureCv p {
+
+}
+
+.structureCv a {
+  color: #fff;
+  background-color: rgba(28,91,223,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+
+.structureCv a:hover {
+  box-shadow: inset 0 65px 0 0 rgb(28,37,78);
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* SECTION SKILLS */
+
+.sectionSkills {
+	width: 100%;
+  padding: 15px;
+  background-color: #0d101b;
+}
+
+.sectionSkills .structureSkills {
+	width: 100%;
+  color: #fff;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionSkills .structureSkills h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sectionSkills .structureSkills .capicityContent {
+  padding: 30px 15px;
+  flex-direction: column;
+}
+
+.sectionSkills .structureSkills .capicityContent h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.sectionSkills .structureSkills .capicityContent h2 i {
+  color: rgb(28,91,223);
+}
+
+.sectionSkills .structureSkills .capacitySkills {
+  padding: 15px;
+}
+
+.sectionSkills .structureSkills .openSkills {
+  background: rgb(28,91,223);
+  padding: 15px 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.sectionSkills .structureSkills .openSkills:hover {
+  box-shadow: inset 0 65px 0 0 rgb(28,37,78);
+}
+
+.sectionSkills .structureSkills .skillsSection {
+  width: 100%;
+  overflow: hidden;
+  height: 0px;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkillsContent {
+  flex-direction: column;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkillsContent h2 {
+  font-size: 20px;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills {
+  width: 100%;
+  background:rgb(28,37,78);
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills span {
+  display: block;
+  height: 15px;
+  background: rgb(28,91,223);
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills .htmlLevel, .sectionSkills .structureSkills .skillsSection .levelSkills .cssLevel, .sectionSkills .structureSkills .skillsSection .levelSkills .lessSassLevel {
+  width: 90%;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills .jsLevel, .sectionSkills .structureSkills .skillsSection .levelSkills .psLevel {
+  width: 75%;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills .aiLevel, .sectionSkills .structureSkills .skillsSection .levelSkills .aeLevel {
+  width: 60%;
+}
+
+.sectionSkills .structureSkills .skillsSection .skillsSectionContent .levelSkills .phpLevel, .sectionSkills .structureSkills .skillsSection .levelSkills .sqlLevel {
+  width: 50%;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* SECTION DIPLOMES EXPERIENCES */
+
+.sectionDipExp .structureDipExp {
+	width: 100%;
+	padding: 100px 25px;
+}
+
+.partDipExp {
+  padding: 25px;
+  background-color: #fff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+	min-height: 275px;
+}
+
+.partDipExp:hover {
+	transform: scale(1.025);
+}
+
+.partDipExp h2 {
+  font-size: 75px;
+  background-image: url(".././img/back-home-index.jpg");
+  background-size: cover;
+  background-position: center 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.partDipExp h3 {
+	padding-bottom: 15px;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+  /* SECTION PORTFOLIO */
+
+.sectionPortfolio {
+  width: 100%;
+  background: #0d101b;
+  padding: 100px 25px;
+}
+
+.sectionPortfolio .structurePortfolio {
+  width: 100%;
+  background: #0d101b;
+}
+
+.sectionPortfolio .structurePortfolio h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* SECTION CONTACT */
+
+.sectionContact {
+  width: 100%;
+  background: rgb(28,91,223);
+}
+
+.sectionContact .structureContact {
+  padding: 100px 15px;
+  color: #fff;
+}
+
+.sectionContact .structureContact h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.sectionContact .structureContact p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.sectionContact .structureContact .formContact input[type="text"] {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  border: none;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sectionContact .structureContact .formContact textarea {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  border: none;
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+  width: 100%;
+  resize: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.sectionContact .structureContact .formContact input[type="text"]:hover,
+.sectionContact .structureContact .formContact textarea:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.sectionContact .structureContact .formContact input[type="submit"] {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  max-width: 300px;
+  margin: auto;
+  border: none;
+  background: #fff;
+  color: rgb(28,91,223);
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sectionContact .structureContact .formContact input[type="submit"]:hover {
+  box-shadow: inset 0 65px 0 0 rgb(28,37,78);
+  color: #fff;
+}
+
+.sectionContact .structureContact .formContact input::placeholder, .sectionContact .structureContact .formContact textarea::placeholder {
+  color: #fff;
+}
+.sectionContact .structureContact .formContact {
+
+}
+
+.sectionContact .structureContact .formContact {
+
+}
+
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+/* ////////////////////////////////// */
+
+/* SECTION FOOTER */
+
+  footer {
+  	background-color: #000410;
+  	padding: 50px 15px;
+  	color: #fff;
+  	display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .citationEinstein {
+    display: block;
+    font-style: italic;
+  }
+
+  footer .footerBot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .footerBot:before {
+    content: '';
+    background: rgba(255,255,255,0.2);
+    width: 200px;
+    height: 2px;
+    margin: 25px 0px;
+  }
+
+  footer .footerBot ul {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .footerBot ul li {
+    display: block;
+    margin: 0px 15px;
+  }
+
+  footer .footerBot ul li a {
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+  }
+
+  footer .footerBot ul li a:hover {
+    color: rgb(28,91,223);
+    border: 2px solid rgb(28,91,223);
+  }

@@ -1,0 +1,178 @@
+
+/*//////////////////////////PAGE_IMPRESSION///////////////////////////////////*/
+
+#conteneur_page_imp{
+margin:0pt;
+padding:0pt;
+width:1300pt !important;
+}
+
+.impression_header{
+background-color:#282828;
+color:#fff;
+padding-top:15pt;
+padding-bottom:15pt;
+}
+
+.header_gauche{
+float:left;
+text-align:left !important;
+}
+
+.header_gauche h1{
+text-align:left;
+font-size:35pt;
+color:#fff;
+}
+
+.header_droite h2{
+text-align:left;
+font-size:25pt;
+color:#fff;
+}
+
+.footer_droite h1{
+text-align:left;
+font-size:25pt;
+color:#800040;
+margin-bottom:5pt !important;
+margin-top:0pt !important;
+}
+
+.footer_droite h2{
+text-align:left;
+font-size:20pt;
+color:#800040;
+margin-bottom:5pt !important;
+}
+
+.footer_gauche img{
+width:150pt;
+height:150pt;
+float:right;
+}
+
+.header_droite{
+float:right;
+font-size:50pt;
+text-align:right;
+}
+
+.header_droite span{
+font-size:20pt;
+}
+
+.impression_photo{
+
+}
+
+.impression_description{
+
+}
+
+.impression_premier_tableau{
+text-align:center;
+margin-bottom:25pt;
+}
+
+.impression_second_tableau{
+text-align:center;
+margin-bottom:25pt;
+}
+
+.impression_footer{
+padding-bottom:25pt;
+}
+
+.margin{
+margin:0pt !important;
+}
+
+.bien_intro {
+padding:15pt;
+}
+
+.emplacement_photo{
+margin-bottom:25pt;
+}
+
+.description_impression{
+padding:25pt;
+text-align:left;
+font-size:17pt;
+}
+
+.description_impression p{
+font-size:35pt;
+}
+
+.impression_premier_tableau p{
+text-align:left;
+font-size:25pt;
+}
+
+.impression_second_tableau p{
+text-align:left;
+font-size:25pt;
+}
+
+.impression_premier_tableau table{
+text-align:left !important;
+}
+
+.impression_second_tableau table{
+text-align:left !important;
+}
+
+.impression_premier_tableau td{
+padding:0pt !important;
+vertical-align:bottom;
+font-size:17pt;
+text-align:left;
+padding-right:25pt !important;
+}
+
+.impression_second_tableau td{
+padding:0pt !important;
+vertical-align:bottom;
+font-size:17pt;
+text-align:left;
+padding-right:25pt !important;
+}
+
+.impression_second_tableau h2{
+padding:0pt !important;
+font-size:15pt;
+text-align:left;
+}
+
+.impression_second_tableau img{
+padding:0pt !important;
+width:200pt;
+}
+
+.photo_gauche img{
+float:left;
+width:100%;
+margin-top:25pt;
+height:200pt;
+}
+
+.photo_droite img{
+width:100%;
+margin-top:25pt;
+height:425pt;
+}
+
+.margin_right{
+padding-right:25pt !important;
+}
+
+.bien_intro_1 i, .bien_intro_2 i, .bien_intro_3 i{
+font-size:50pt !important;
+}
+
+.bien_intro_1, .bien_intro_2, .bien_intro_3{
+font-size:25pt !important;
+text-align:center;
+}

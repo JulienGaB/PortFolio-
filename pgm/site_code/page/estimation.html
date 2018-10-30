@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>Site Omega</title>
+	
+	<link rel="stylesheet" type="text/css" href=".././css/index.css">
+	<link rel="stylesheet" type="text/css" href=".././css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href=".././css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href=".././css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href=".././css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href=".././css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=".././css/font-awesome.css">
+	<link rel="stylesheet" href=".././css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="conteneur_menu">
+	<div class="fixed-nav-bar scrolled row wow slideInDown">
+		<div class="logo col-md-2 col-sm-2 col-xs-2">
+			<a href="../index.html">
+				<img src=".././icon/logo.png" alt="logo de l'agence" />
+			</a>
+		</div>
+		
+		<div class="col-md-10 col-sm-10 col-xs-10">
+			<div class="menu_hidden" data-wow-delay="0.25s">
+				<ul>
+					<li>
+						<a href="contact.html" class="adresse_mail" >
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>support@immobilier.com
+						</a>
+					</li>
+					<li>
+						<i class="fa fa-phone" aria-hidden="true"></i>09.58.87.88.69
+					</li>
+					<li>
+						<form>
+							<select name="langue" size="1">
+								<option value="Francais">Français</option>
+								<option value="Anglais">Anglais</option>
+								<option value="Espagnole">Espagnol</option>
+								<option value="Italien">Italien</option>
+								<option value="Allemand">Allemand</option>
+								<option value="Néerlandais">Néerlandais</option>
+								<option value="Portuguais">Portuguais</option>
+								<option value="Russe">Russe</option>
+							</select>
+						</form>		
+					</li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="../index.html">
+							ACCUEIL
+						</a>
+					</li>
+					<li>
+						<a href="annonces.html">
+							ANNONCES
+						</a>
+					</li>
+					<li>
+						<a href="estimation.html">
+							ESTIMATION
+						</a>
+					</li>
+					<li>
+						<a href="agence.html">
+							L'AGENCE
+						</a>
+					</li>
+					<li>
+						<a href="contact.html">
+							CONTACT
+						</a>
+					</li>
+					<li>
+						<a href="panier.html" >
+							<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="structure_header">
+				<div id="structure_burger">
+					<div class="burger"></div>
+					<div class="burger"></div>
+					<div class="burger"></div>
+				</div>
+				<div class="header">
+					<ul>
+						<li><a href="../index.html">ACCUEIL</a></li>
+						<li><a href="annonces.html">ANNONCES</a></li>			
+						<li><a href="estimation.html">ESTIMATION</a></li>
+						<li><a href="agence.html">L'AGENCE</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="panier.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+						<li></li>
+						<li><a><i class="fa fa-arrow-left" aria-hidden="true"></i></a></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+<div class="clear">
+</div>
+<div id="conteneur_page" >
+	<div class="titre_page_specifique wow fadeIn">
+		<div class="titre_page_opacite_estimation row">
+			<div class="espace_blanc col-md-2">
+			</div>
+			<div class="page_perso_fixed_titre col-md-8 col-sm-12 col-xs-12">
+				<p>ESTIMATION GRATUITE</p>
+				<ul>
+					<li>
+						<a href="../index.html">Accueil</a> /
+					</li>
+					<li>
+						Estimation
+					</li>
+				</ul>
+			</div>
+			<div class="espace_blanc col-md-2">
+			</div>
+		</div>
+	</div>
+	<div id="estimation_form" class="row">
+		<div class="espace_blanc col-md-3">
+		</div>
+		<div class="formulaire_destimation row col-md-6 col-sm-12 col-xs-12">
+			<form class="row wow fadeInUp" data-wow-delay="0.25s">
+				<table class="col-md-12 col-sm-12 col-xs-12">
+					<tr class="row">
+						<td colspan="2" class="titre_partie_form col-md-12 col-sm-12 col-xs-12">
+							caractéristique du bien
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* type de bien :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<select name="type">
+								<option value="Maison">Maison</option>
+								<option value="Appartement">Appartement</option>
+								<option value="Locaux">Locaux</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* surface habitable (m²) :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							surface terrain (m²) :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* nombre de pièces :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							nombre de chambres :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							niveau :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							année de construction :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-4  col-sm-4 col-xs-4">
+							a renover :
+						</td>
+						<td class="col-md-8 col-sm-8 col-xs-8">
+							<select name="type">
+								<option value="Type de Biens">OUI</option>
+								<option value="Maison">NON</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-4  col-sm-4 col-xs-4">
+							piscine :
+						</td>
+						<td class="col-md-8  col-sm-8 col-xs-8">
+							<select name="type">
+								<option value="Type de Biens">OUI</option>
+								<option value="Maison">NON</option>
+							</select>
+						</td>
+					</tr>
+					<tr class="row">
+						<td colspan="2" class="titre_partie_form col-md-12  col-sm-12 col-xs-12">
+							localisation
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* adresse :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* code postale :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* ville :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td colspan="2" class="titre_partie_form col-md-12  col-sm-12 col-xs-12">
+							a propos de vous
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* nom :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* prénom :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* email :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td class="texte_partie_form col-md-3  col-sm-3 col-xs-3">
+							* numero téléphone :
+						</td>
+						<td class="col-md-9  col-sm-9 col-xs-9">
+							<input type="text" />
+						</td>
+					</tr>
+					<tr class="row">
+						<td colspan="2" class="titre_partie_form col-md-12  col-sm-12 col-xs-12">
+							informations complementaires
+						</td>
+					</tr>
+					<tr class="row">
+						<td colspan="2" class="titre_partie_form col-md-12  col-sm-12 col-xs-12">
+							<textarea name="com" id="message" rows="10" style="margin: 0px; height: 206px; width:100%;"></textarea>
+						</td>
+					</tr>
+					<tr class="row">
+						<td colspan="2">
+							<input type="submit" class="rechercher" value="ENREGISTRER" />
+						</td>
+					</tr>
+				</table>
+			</form>
+			Les champs indiqués par * sont obligatoires
+		</div>
+		<div class="espace_blanc col-md-3">
+		</div>
+	</div>
+</div>
+<div class="clear">
+</div>
+<div id="reference_presentation">
+	<div id="reference" class="row">
+		<div class="reference_1 col-md-3 col-sm-6 col-xs-12">
+			<ul> <span></span>Acheter un logement à Toulon
+				<li>
+					<a href="#">Un appartement</a>
+				</li>
+				<li>
+					<a href="#">Une maison</a>
+				</li>
+				<li>
+					<a href="#">Un Local</a>
+				</li>
+			</ul>
+		</div>
+		<div class="reference_2 col-md-3 col-sm-6 col-xs-12">
+			<ul> <span></span>Louer à Toulon, par pièces
+				<li>
+					<a href="#">2 pièces</a>
+				</li>
+				<li>
+					<a href="#">Une maison</a>
+				</li>
+			</ul>
+		</div>
+		<div class="reference_3 col-md-3 col-sm-6 col-xs-12">
+			<ul> <span></span>Acheter à Toulon, par pièces
+				<li>
+					<a href="#">2 pièces</a>
+				</li>
+				<li>
+					<a href="#">3 pièces</a>
+				</li>
+				<li>
+					<a href="#">4 pièces</a>
+				</li>
+				<li>
+					<a href="#">5 pièces</a>
+				</li>
+			</ul>
+		</div>
+		<div class="reference_4 col-md-3 col-sm-6 col-xs-12">
+			<ul> <span></span>Louer à Toulon, par pièces
+				<li>
+					<a href="#">2 pièces</a>
+				</li>
+				<li>
+					<a href="#">3 pièces</a>
+				</li>
+				<li>
+					<a href="#">4 pièces</a>
+				</li>
+				<li>
+					<a href="#">5 pièces</a>
+				</li>
+			</ul>
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+</div>
+<div class="clear">
+</div>
+<div id="footer_presentation">
+	<div id="footer">
+		<div class="menu_footer wow fadeInUp">
+			<ul>
+				<li>
+					<a href="../index.html">Accueil</a> /
+				</li>
+				<li>
+					<a href="annonces.html">Annonces</a> /
+				</li>
+				<li>
+					<a href="estimation.html">Estimation</a> /
+				</li>
+				<li>
+					<a href="agence.html">Agence</a> /
+				</li>
+				<li>
+					<a href="contact.html">Contact</a> /
+				</li>
+				<li>
+					<a href="#">Administration</a>
+				</li>
+			</ul>
+		</div>
+		<div class="logo_reseau">
+			<ul>
+				<li  class="wow zoomIn" data-wow-delay="0.15s">
+					<a href="#"><img src=".././image/facebook.png" alt="logo facebook" /></a>
+				</li>
+				<li  class="wow zoomIn" data-wow-delay="0.25s">
+					<a href="#"><img src=".././image/twitter.png" alt="logo twitter" /></a>
+				</li>
+				<li   class="wow zoomIn" data-wow-delay="0.35s">
+					<a href="#"><img src=".././image/google.png" alt="logo google +" /></a>
+				</li>
+				<li class="wow zoomIn" data-wow-delay="0.45s">
+					<a href="#"><img src=".././image/linkedin.png" alt="logo linkedin" /></a>
+				</li>
+			</ul>
+		</div>
+		<div class="mention_importante wow fadeInUp">
+			<ul>
+				<li>
+					©2017 Agence Démonstration‎ -
+				</li>
+				<li>
+					<a href="#">Mentions Légales</a> -
+				</li>
+				<li>
+					<a href="#">Honoraires</a>
+				</li>
+			</ul>
+		</div>
+		<div class="phrase_final_indispensable wow fadeInUp">
+			<ul>
+				<li>
+					Site internet proposé par 
+				</li>
+				<li>
+					<a href="https://www.winimmobilier.com/"><img src=".././image/logo_winimmobilier.png" alt="logo winimmobilier" /></a>
+				</li>
+				<li>
+					Logiciel Immobilier
+				</li>
+			</ul>
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+</div>
+<div class="clear">
+</div>
+<script src=".././js/index.js"></script>
+<script src=".././js/slider.js"></script>
+<script src=".././js/bootstrap.js"></script>
+<script src=".././js/bootstrap.min.js"></script>
+<script type="text/javascript" src=".././js/burger_jquery.js"></script>
+<script>
+$(document).ready(function(){
+		$('#structure_header').click(function(){
+			$('.header').toggleClass('isOpen');
+			});
+		});
+</script>
+<script src=".././js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>

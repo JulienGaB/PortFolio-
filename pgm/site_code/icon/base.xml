@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biens>
+  <bien id="7">
+    <idbien><![CDATA[7]]></idbien>
+    <reference><![CDATA[7]]></reference>
+    <position>1</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83400]]></code_postal>
+    <ville><![CDATA[HYERES]]></ville>
+    <nom_secteur><![CDATA[Centre ville]]></nom_secteur>
+    <proximite><![CDATA[]]></proximite>
+    <description_internet><![CDATA[Appartement T4 en frais de notaire r&eacute;duits de 75 m&#178; avec terrasse et stationnement privatif. En dernier &eacute;tage d'une petite r&eacute;sidence. Possibilit&eacute; Loi Scellier.]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[T4]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[2]]></categorie_bien>
+    <nb_piece><![CDATA[4]]></nb_piece>
+    <nb_chambre><![CDATA[2]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[3]]></etage>
+    <nb_etage><![CDATA[3]]></nb_etage>
+    <ascenseur><![CDATA[oui]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[12]]></surface_terrasse>
+    <date_creation><![CDATA[20100226]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[80]]></montant_charges>
+    <bandeau><![CDATA[2]]></bandeau>
+    <surface_habitable><![CDATA[75]]></surface_habitable>
+    <surface_jardin><![CDATA[0]]></surface_jardin>
+    <prix><![CDATA[356000]]></prix>
+    <fai><![CDATA[18000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Parking]]></stationnement>
+    <piscine><![CDATA[non]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[0]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Climatisation r&eacute;versible]]></type_chauffage>
+    <tout_a_egout><![CDATA[non]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <consommation_energetique>299</consommation_energetique>
+    <emission_GES >24</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2010]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Haut]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <images>
+    <image_1><![CDATA[Photo_demo_14.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_14.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_17.jpeg]]></image_2>
+    <image_3><![CDATA[Photo_demo_18.jpeg]]></image_3>
+    </images>
+  </bien>
+  <bien id="2">
+    <idbien><![CDATA[2]]></idbien>
+    <reference><![CDATA[2]]></reference>
+    <position>2</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83000]]></code_postal>
+    <ville><![CDATA[TOULON]]></ville>
+    <nom_secteur><![CDATA[Mourillon]]></nom_secteur>
+    <proximite><![CDATA[Plages]]></proximite>
+    <description_internet><![CDATA[En dernier &eacute;tage, superbe appartement T5, larges baies vitr&eacute;es donnant sur un parc arbor&eacute;. Cuisine &eacute;quip&eacute;e contemporaine, s&eacute;jour de 43m&#178;, double garage. Rare &agrave; la vente<br /><br />]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[T5]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[2]]></categorie_bien>
+    <nb_piece><![CDATA[5]]></nb_piece>
+    <nb_chambre><![CDATA[3]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[3]]></etage>
+    <nb_etage><![CDATA[3]]></nb_etage>
+    <ascenseur><![CDATA[oui]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[0]]></surface_terrasse>
+    <date_creation><![CDATA[20090225]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[180]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[102]]></surface_habitable>
+    <surface_jardin><![CDATA[0]]></surface_jardin>
+    <prix><![CDATA[380000]]></prix>
+    <fai><![CDATA[18000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[non]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[oui]]></acces_handicape>
+    <proche_commodites><![CDATA[oui]]></proche_commodites>
+    <taxe_fonciere><![CDATA[950]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Climatisation r&eacute;versible]]></type_chauffage>
+    <tout_a_egout><![CDATA[non]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <consommation_energetique>210</consommation_energetique>
+    <emission_GES >41</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2009]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Haut]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Chambre : 12 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Chambre : 12 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Chambre : 13 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Cuisine : 12 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Entr&eacute;e : 0 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Salle de bains : 8 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[S&eacute;jour : 43 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[WC : 2 m&#178; ]]></piece_8>
+    <images>
+    <image_1><![CDATA[Photo_demo_3.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_3.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_4.jpeg]]></image_2>
+    </images>
+  </bien>
+  <bien id="3">
+    <idbien><![CDATA[3]]></idbien>
+    <reference><![CDATA[3]]></reference>
+    <position>3</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83000]]></code_postal>
+    <ville><![CDATA[TOULON]]></ville>
+    <nom_secteur><![CDATA[Toulon Centre]]></nom_secteur>
+    <proximite><![CDATA[transports et commerces]]></proximite>
+    <description_internet><![CDATA[RARE A LA VENTE !<br /><br />En dernier &eacute;tage d'un immeuble bourgeois, superbe appartement T3 enti&egrave;rement r&eacute;nov&eacute; et red&eacute;cor&eacute;. Prestations de tr&egrave;s hautes qualit&eacute;. Ascenseur et garage ferm&eacute;.]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[T3]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[2]]></categorie_bien>
+    <nb_piece><![CDATA[3]]></nb_piece>
+    <nb_chambre><![CDATA[2]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[5]]></etage>
+    <nb_etage><![CDATA[5]]></nb_etage>
+    <ascenseur><![CDATA[oui]]></ascenseur>
+    <terrasse><![CDATA[non]]></terrasse>
+    <surface_terrasse>0</surface_terrasse>
+    <date_creation><![CDATA[20090422]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[80]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[112]]></surface_habitable>
+    <surface_jardin><![CDATA[0]]></surface_jardin>
+    <prix><![CDATA[450000]]></prix>
+    <fai><![CDATA[25000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[non]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[non]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[oui]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1200]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Climatisation r&eacute;versible]]></type_chauffage>
+    <tout_a_egout><![CDATA[non]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>52</consommation_energetique>
+    <emission_GES >8</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[1800]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[non]]></coups_de_coeur>
+    <etat_general><![CDATA[2]]></etat_general>
+    <standing><![CDATA[Haut]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Chambre : 15 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Chambre : 13 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Cuisine : 18 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Hall d'entr&eacute;e : 4 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Salle de bains : 8 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Salon : 49 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[WC : 5 m&#178; ]]></piece_7>
+    <images>
+    <image_1><![CDATA[Photo_demo_5.jpeg]]></image_1>
+    <image_2><![CDATA[Photo_demo_6.jpeg]]></image_2>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_6.jpeg]]></image_princ_min>
+    <image_3><![CDATA[Photo_demo_7.jpeg]]></image_3>
+    </images>
+  </bien>
+  <bien id="6">
+    <idbien><![CDATA[6]]></idbien>
+    <reference><![CDATA[6]]></reference>
+    <position>4</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83000]]></code_postal>
+    <ville><![CDATA[TOULON]]></ville>
+    <nom_secteur><![CDATA[Toulon Centre]]></nom_secteur>
+    <proximite><![CDATA[]]></proximite>
+    <description_internet><![CDATA[Superbe Lotf de 130 m&#178; en duplex au coeur de la ville. S&eacute;jour de 50 m&#178;, cuisine am&eacute;ricaine, 2 chambres. Espace, luminosit&eacute; et sobri&eacute;t&eacute;...]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Loft]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[2]]></categorie_bien>
+    <nb_piece><![CDATA[5]]></nb_piece>
+    <nb_chambre><![CDATA[2]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[5]]></etage>
+    <nb_etage><![CDATA[5]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[non]]></terrasse>
+    <surface_terrasse>0</surface_terrasse>
+    <date_creation><![CDATA[20100226]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[30]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[130]]></surface_habitable>
+    <surface_jardin><![CDATA[0]]></surface_jardin>
+    <prix><![CDATA[450000]]></prix>
+    <fai><![CDATA[20000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[non]]></piscine>
+    <climatisation><![CDATA[non]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1000]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Individuel &eacute;lectrique]]></type_chauffage>
+    <tout_a_egout><![CDATA[non]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>60</consommation_energetique>
+    <emission_GES >18</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[1800]]></annee_construction>
+    <exposition_bien><![CDATA[Est]]></exposition_bien>
+    <coups_de_coeur><![CDATA[non]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Bon]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <images>
+    <image_1><![CDATA[Photo_demo_13.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_13.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_15.jpeg]]></image_2>
+    </images>
+  </bien>
+  <bien id="1">
+    <idbien><![CDATA[1]]></idbien>
+    <reference><![CDATA[1]]></reference>
+    <position>5</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83000]]></code_postal>
+    <ville><![CDATA[TOULON]]></ville>
+    <nom_secteur><![CDATA[Mont-Faron]]></nom_secteur>
+    <proximite><![CDATA[Centre ville]]></proximite>
+    <description_internet><![CDATA[Dans un secteur calme, tr&egrave;s belle maison contemporaine de 129m&#178;, s&eacute;jour/salon donnant sur terrasse plein sud, piscine, 3 chambres, buanderie, garage, le tout sur 1500 m&#178; de jardin paysag&eacute;.<br />]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Maison Contemporaine]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[1]]></categorie_bien>
+    <nb_piece><![CDATA[5]]></nb_piece>
+    <nb_chambre><![CDATA[3]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[0]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[0]]></surface_terrasse>
+    <date_creation><![CDATA[20090224]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[0]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[129]]></surface_habitable>
+    <surface_jardin><![CDATA[1500]]></surface_jardin>
+    <prix><![CDATA[550000]]></prix>
+    <fai><![CDATA[30000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[oui]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1100]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Climatisation r&eacute;versible]]></type_chauffage>
+    <tout_a_egout><![CDATA[oui]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>120</consommation_energetique>
+    <emission_GES >12</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2005]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Haut]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Buanderie : 6 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Bureau : 9 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Chambre : 18 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Chambre : 18 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Chambre : 18 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Cuisine : 12 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[Entr&eacute;e : 2 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[Salle de bains : 6 m&#178; ]]></piece_8>
+    <piece_9><![CDATA[S&eacute;jour : 38 m&#178; ]]></piece_9>
+    <piece_10><![CDATA[WC : 2 m&#178; ]]></piece_10>
+    <images>
+    <image_1><![CDATA[Photo_demo_1.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_1.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_2.jpeg]]></image_2>
+    </images>
+  </bien>
+  <bien id="4">
+    <idbien><![CDATA[4]]></idbien>
+    <reference><![CDATA[4]]></reference>
+    <position>6</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83320]]></code_postal>
+    <ville><![CDATA[CARQUEIRANNE]]></ville>
+    <nom_secteur><![CDATA[Paradis]]></nom_secteur>
+    <proximite><![CDATA[Mer]]></proximite>
+    <description_internet><![CDATA[Au coeur de la Pin&egrave;de, magnifique villa proven&ccedil;ale de 180 m2 avec terrasses et piscine. A 2 pas de la mer; venez vous y ressourcer...]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Maison provençale]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[1]]></categorie_bien>
+    <nb_piece><![CDATA[6]]></nb_piece>
+    <nb_chambre><![CDATA[4]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[2]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[0]]></surface_terrasse>
+    <date_creation><![CDATA[20090422]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[0]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[180]]></surface_habitable>
+    <surface_jardin><![CDATA[1000]]></surface_jardin>
+    <prix><![CDATA[650000]]></prix>
+    <fai><![CDATA[40000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Parking et Garage]]></stationnement>
+    <piscine><![CDATA[oui]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1600]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Individuel &eacute;lectrique]]></type_chauffage>
+    <tout_a_egout><![CDATA[oui]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>259</consommation_energetique>
+    <emission_GES >32</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2001]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Haut]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <images>
+    <image_1><![CDATA[Photo_demo_8.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_8.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_9.jpeg]]></image_2>
+    <image_3><![CDATA[Photo_demo_10.jpeg]]></image_3>
+    </images>
+  </bien>
+  <bien id="8">
+    <idbien><![CDATA[8]]></idbien>
+    <reference><![CDATA[8]]></reference>
+    <position>7</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83000]]></code_postal>
+    <ville><![CDATA[TOULON]]></ville>
+    <nom_secteur><![CDATA[Mont-Faron]]></nom_secteur>
+    <proximite><![CDATA[]]></proximite>
+    <description_internet><![CDATA[Dans un secteur privil&eacute;gi&eacute;, splendide appartement de prestige situ&eacute; dans une b&#226;tisse du d&eacute;but du si&egrave;cle. Les mat&eacute;riaux de qualit&eacute; font de cet appartement un parfait compromis entre l'ancien et le contemporain. Une visite s'impose...]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[T3]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[2]]></categorie_bien>
+    <nb_piece><![CDATA[3]]></nb_piece>
+    <nb_chambre><![CDATA[2]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[0]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[non]]></terrasse>
+    <surface_terrasse>0</surface_terrasse>
+    <date_creation><![CDATA[20131102]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[100]]></montant_charges>
+    <bandeau><![CDATA[1]]></bandeau>
+    <surface_habitable><![CDATA[160]]></surface_habitable>
+    <surface_jardin><![CDATA[0]]></surface_jardin>
+    <prix><![CDATA[900000]]></prix>
+    <fai><![CDATA[50000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[non]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1900]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Individuel &eacute;lectrique]]></type_chauffage>
+    <tout_a_egout><![CDATA[non]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>26</consommation_energetique>
+    <emission_GES >12</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[1900]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Prestige]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Chambre : 22 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Chambre : 18 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Cuisine : 28 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Salle d'eau : 7 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Salle de bains : 8 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Salon : 35 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[S&eacute;jour : 30 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[WC : 3 m&#178; ]]></piece_8>
+    <piece_9><![CDATA[WC : 3 m&#178; ]]></piece_9>
+    <piece_10><![CDATA[Entr&eacute;e : 8 m&#178; ]]></piece_10>
+    <images>
+    <image_1><![CDATA[Photo_demo_19.jpeg]]></image_1>
+    <image_2><![CDATA[Photo_demo_20.jpeg]]></image_2>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_20.jpeg]]></image_princ_min>
+    <image_3><![CDATA[Photo_demo_21.jpeg]]></image_3>
+    </images>
+  </bien>
+  <bien id="10">
+    <idbien><![CDATA[10]]></idbien>
+    <reference><![CDATA[10]]></reference>
+    <position>8</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83320]]></code_postal>
+    <ville><![CDATA[CARQUEIRANNE]]></ville>
+    <nom_secteur><![CDATA[Paradis]]></nom_secteur>
+    <proximite><![CDATA[]]></proximite>
+    <description_internet><![CDATA[Sur les hauteurs de Carqueiranne, splendide villa d'architecte de 230 m&#178; avec prestations haut de gamme : salle se sport, piscine, cuisine contemporaine... Rare &agrave; la vente !]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Maison d'architecte]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[1]]></categorie_bien>
+    <nb_piece><![CDATA[5]]></nb_piece>
+    <nb_chambre><![CDATA[3]]></nb_chambre>
+    <nb_place_parking><![CDATA[0]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[2]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[20]]></surface_terrasse>
+    <date_creation><![CDATA[20131102]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[0]]></montant_charges>
+    <bandeau><![CDATA[17]]></bandeau>
+    <surface_habitable><![CDATA[230]]></surface_habitable>
+    <surface_jardin><![CDATA[1000]]></surface_jardin>
+    <prix><![CDATA[1000000]]></prix>
+    <fai><![CDATA[60000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Garage]]></stationnement>
+    <piscine><![CDATA[oui]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[1900]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Individuel &eacute;lectrique]]></type_chauffage>
+    <tout_a_egout><![CDATA[oui]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <consommation_energetique>0</consommation_energetique>
+    <emission_GES >0</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2012]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Prestige]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Chambre : 18 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Chambre : 19 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Chambre : 20 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Cuisine : 16 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Entr&eacute;e : 8 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Salle d'eau : 8 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[Salle de bains : 9 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[Salle de sport : 75 m&#178; ]]></piece_8>
+    <piece_9><![CDATA[S&eacute;jour : 50 m&#178; ]]></piece_9>
+    <piece_10><![CDATA[WC : 3 m&#178; ]]></piece_10>
+    <piece_11><![CDATA[WC : 3 m&#178; ]]></piece_11>
+    <images>
+    <image_1><![CDATA[Photo_demo_25.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_25.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_26.jpeg]]></image_2>
+    <image_3><![CDATA[Photo_demo_27.jpeg]]></image_3>
+    <image_4><![CDATA[Photo_demo_28.jpeg]]></image_4>
+    </images>
+  </bien>
+  <bien id="5">
+    <idbien><![CDATA[5]]></idbien>
+    <reference><![CDATA[5]]></reference>
+    <position>9</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83320]]></code_postal>
+    <ville><![CDATA[CARQUEIRANNE]]></ville>
+    <nom_secteur><![CDATA[Paradis]]></nom_secteur>
+    <proximite><![CDATA[Plages]]></proximite>
+    <description_internet><![CDATA[Sur les hauteurs de Carqueiranne, somptueuse villa d'architecte &eacute;cologique avec vue mer panoramique. Larges baies vitr&eacute;es, construction bois, 150m&#178; habitables, salle de r&eacute;ception, 3 chambres avec leur salle de bains. Piscine, jacuzzi... Vous serez sous le charme !]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Maison d'architecte]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[1]]></categorie_bien>
+    <nb_piece><![CDATA[10]]></nb_piece>
+    <nb_chambre><![CDATA[6]]></nb_chambre>
+    <nb_place_parking><![CDATA[4]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[1]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[80]]></surface_terrasse>
+    <date_creation><![CDATA[20100224]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[0]]></montant_charges>
+    <bandeau><![CDATA[13]]></bandeau>
+    <surface_habitable><![CDATA[150]]></surface_habitable>
+    <surface_jardin><![CDATA[1000]]></surface_jardin>
+    <prix><![CDATA[1800000]]></prix>
+    <fai><![CDATA[50000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Parking et Garage]]></stationnement>
+    <piscine><![CDATA[oui]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[0]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Climatisation r&eacute;versible]]></type_chauffage>
+    <tout_a_egout><![CDATA[oui]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <consommation_energetique>320</consommation_energetique>
+    <emission_GES >30</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[2007]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Prestige]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Chambre : 15 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Chambre : 17 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Chambre : 15 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Cuisine : 20 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Hall d'entr&eacute;e : 8 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Salon : 45 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[S&eacute;jour : 25 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[WC : 3 m&#178; ]]></piece_8>
+    <piece_9><![CDATA[WC : 3 m&#178; ]]></piece_9>
+    <images>
+    <image_1><![CDATA[Photo_demo_11.jpeg]]></image_1>
+    <image_2><![CDATA[Photo_demo_12.jpeg]]></image_2>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_12.jpeg]]></image_princ_min>
+    </images>
+  </bien>
+  <bien id="9">
+    <idbien><![CDATA[9]]></idbien>
+    <reference><![CDATA[9]]></reference>
+    <position>10</position>
+    <nom_pays><![CDATA[France]]></nom_pays>
+    <code_postal><![CDATA[83400]]></code_postal>
+    <ville><![CDATA[HYERES]]></ville>
+    <nom_secteur><![CDATA[Centre ville]]></nom_secteur>
+    <proximite><![CDATA[]]></proximite>
+    <description_internet><![CDATA[Pour les amoureux de la Provence ! Authentique mas en pierre de 250 m&#178; au charme d'antan comprenant un s&eacute;jour de + de 60 m&#178;, 6 chambres, 4 salle de bains... Le tout sur un terrain arbor&eacute; de 2.000 m&#178; !]]></description_internet>
+    <type_transaction>vente</type_transaction>
+    <type_bien><![CDATA[Mas]]></type_bien>
+    <agence_bien><![CDATA[AGENCE_1]]></agence_bien>
+    <nom_conseiller><![CDATA[DEMO Jacques]]></nom_conseiller>
+    <categorie_bien><![CDATA[1]]></categorie_bien>
+    <nb_piece><![CDATA[8]]></nb_piece>
+    <nb_chambre><![CDATA[6]]></nb_chambre>
+    <nb_place_parking><![CDATA[4]]></nb_place_parking>
+    <nb_parking_exterieur><![CDATA[0]]></nb_parking_exterieur>
+    <etage><![CDATA[0]]></etage>
+    <nb_etage><![CDATA[2]]></nb_etage>
+    <ascenseur><![CDATA[non]]></ascenseur>
+    <terrasse><![CDATA[oui]]></terrasse>
+    <surface_terrasse><![CDATA[60]]></surface_terrasse>
+    <date_creation><![CDATA[20131102]]></date_creation>
+    <date_modif><![CDATA[20131102]]></date_modif>
+    <montant_charges><![CDATA[0]]></montant_charges>
+    <bandeau><![CDATA[14]]></bandeau>
+    <surface_habitable><![CDATA[250]]></surface_habitable>
+    <surface_jardin><![CDATA[2000]]></surface_jardin>
+    <prix><![CDATA[1900000]]></prix>
+    <fai><![CDATA[100000]]></fai>
+    <surface_constructible><![CDATA[0]]></surface_constructible>
+    <edf><![CDATA[non]]></edf>
+    <gdf><![CDATA[non]]></gdf>
+    <eau><![CDATA[non]]></eau>
+    <c_o_s><![CDATA[0]]></c_o_s>
+    <neuf><![CDATA[oui]]></neuf>
+    <stationnement><![CDATA[Parking et Garage]]></stationnement>
+    <piscine><![CDATA[oui]]></piscine>
+    <climatisation><![CDATA[oui]]></climatisation>
+    <acces_handicape><![CDATA[non]]></acces_handicape>
+    <proche_commodites><![CDATA[non]]></proche_commodites>
+    <taxe_fonciere><![CDATA[2000]]></taxe_fonciere>
+    <type_chauffage><![CDATA[Individuel &eacute;lectrique]]></type_chauffage>
+    <tout_a_egout><![CDATA[oui]]></tout_a_egout>
+    <fausse_sceptique><![CDATA[non]]></fausse_sceptique>
+    <CHEMINEE><![CDATA[oui]]></CHEMINEE>
+    <consommation_energetique>52</consommation_energetique>
+    <emission_GES >48</emission_GES>
+    <url_visite_virtuelle><![CDATA[]]></url_visite_virtuelle>
+    <url_video_youtube><![CDATA[]]></url_video_youtube>
+    <annee_construction><![CDATA[1850]]></annee_construction>
+    <exposition_bien><![CDATA[Sud]]></exposition_bien>
+    <coups_de_coeur><![CDATA[oui]]></coups_de_coeur>
+    <etat_general><![CDATA[1]]></etat_general>
+    <standing><![CDATA[Prestige]]></standing>
+    <Location_saisonniere><![CDATA[non]]></Location_saisonniere>
+    <piece_1><![CDATA[Bureau : 15 m&#178; ]]></piece_1>
+    <piece_2><![CDATA[Cellier : 10 m&#178; ]]></piece_2>
+    <piece_3><![CDATA[Chambre : 15 m&#178; ]]></piece_3>
+    <piece_4><![CDATA[Chambre : 18 m&#178; ]]></piece_4>
+    <piece_5><![CDATA[Chambre : 18 m&#178; ]]></piece_5>
+    <piece_6><![CDATA[Chambre : 20 m&#178; ]]></piece_6>
+    <piece_7><![CDATA[Chambre : 15 m&#178; ]]></piece_7>
+    <piece_8><![CDATA[Chambre : 12 m&#178; ]]></piece_8>
+    <piece_9><![CDATA[Cuisine : 25 m&#178; ]]></piece_9>
+    <piece_10><![CDATA[Entr&eacute;e : 10 m&#178; ]]></piece_10>
+    <piece_11><![CDATA[Salle d'eau : 8 m&#178; ]]></piece_11>
+    <piece_12><![CDATA[Salle d'eau : 5 m&#178; ]]></piece_12>
+    <piece_13><![CDATA[Salle de bains : 8 m&#178; ]]></piece_13>
+    <piece_14><![CDATA[Salle de bains : 5 m&#178; ]]></piece_14>
+    <piece_15><![CDATA[S&eacute;jour : 60 m&#178; ]]></piece_15>
+    <piece_16><![CDATA[WC : 3 m&#178; ]]></piece_16>
+    <piece_17><![CDATA[WC : 3 m&#178; ]]></piece_17>
+    <images>
+    <image_1><![CDATA[Photo_demo_22.jpeg]]></image_1>
+    <image_princ_min><![CDATA[PhotoPrincMin_demo_22.jpeg]]></image_princ_min>
+    <image_2><![CDATA[Photo_demo_23.jpeg]]></image_2>
+    <image_3><![CDATA[Photo_demo_24.jpeg]]></image_3>
+    </images>
+  </bien>
+</biens>
